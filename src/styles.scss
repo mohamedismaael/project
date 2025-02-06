@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+//@use"variables" as *;
+//@use"base" as *;
+//@use"bottons" as *;
+//@use"utilities" as *;
+
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+

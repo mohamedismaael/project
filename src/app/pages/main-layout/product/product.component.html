@@ -1,0 +1,46 @@
+<!-- <p>{{product.title}}</p>
+<p>{{product.price}}</p>
+<p>{{product.category}}</p>
+<p>{{product.description}}</p>
+<img [src]="product.image" [alt]="product.title"> -->
+
+
+
+<div class="min-h-screen bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-900 dark:to-pink-900 p-12 flex items-center">
+  <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+
+    <!-- Product Image (على اليسار) -->
+    <div class="relative w-full h-[500px] flex justify-center">
+      <img [src]="product.image" [alt]="product.title" class="w-full h-full object-contain rounded-lg shadow-lg">
+    </div>
+
+    <!-- Product Details (على اليمين) -->
+    <div class="text-left">
+      <h1 class="text-5xl font-bold text-purple-900 dark:text-white mb-4">{{ product.title }}</h1>
+      <p class="text-lg text-purple-600 dark:text-purple-300 mb-6">{{ product.category }}</p>
+      
+      <!-- Price -->
+      <span class="text-4xl font-bold text-purple-900 dark:text-purple-200 block mb-6">${{ product.price }}</span>
+      
+      <!-- Description -->
+      <h2 class="text-2xl font-semibold text-purple-900 dark:text-white mb-4">Description</h2>
+      <p class="text-gray-700 dark:text-gray-300 leading-relaxed mb-6">{{ product.description }}</p>
+      
+      <!-- Rating -->
+      <div class="flex items-center space-x-2 mb-6">
+        <span class="text-yellow-400 text-2xl">★★★★☆</span>
+        <span class="text-gray-700 dark:text-gray-300">(4.5/5)</span>
+      </div>
+
+      <!-- Add to Cart Button -->
+      <button class="bg-purple-700 text-white px-8 py-3 rounded-lg hover:bg-purple-800 transition-colors text-lg">
+        Add to Cart
+      </button>
+    </div>
+
+  </div>
+</div>
+
+
+
+
