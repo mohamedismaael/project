@@ -9,8 +9,7 @@ This project is built with **Angular** to learn API consumption, dynamic routing
 
 ### 1. Clone the repository:
    Clone the repository to your local machine using the following command:
-   ```bash
-   ```
+   
 
 ### 2. Open the project in Visual Studio:
    - After cloning the repository, open the project folder in **Visual Studio** (VS).
@@ -18,9 +17,7 @@ This project is built with **Angular** to learn API consumption, dynamic routing
 ### 3. Install Dependencies:
    - Open the terminal in VS (or use the integrated terminal).
    - Run the following command to install the required dependencies:
-   ```bash
-   npm install
-   ```
+   
 
 ### 4. Run the project:
    - To run the project locally, execute the following command:
