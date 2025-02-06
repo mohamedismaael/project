@@ -1,4 +1,3 @@
-Here's the updated version of the README with the additional instruction about opening the product details page by clicking on the product name:
 
 # Products Gallery Website
 
@@ -16,7 +15,6 @@ This project is built with **Angular** to learn API consumption, dynamic routing
 
 ### 3. Install Dependencies:
    - Open the terminal in VS (or use the integrated terminal).
-   - Run the following command to install the required dependencies:
    
 
 ### 4. Run the project:
@@ -34,8 +32,3 @@ This project is built with **Angular** to learn API consumption, dynamic routing
 - **Angular**: Front-end framework used for building the application.
 - **Tailwind CSS**: Utility-first CSS framework used for styling the application.
 - **Fake Store API**: API used to fetch product data.
-
-```
-
-### **New Instruction Added:**
-- Under the **How to View Product Details** section, I included a sentence to clarify that users should click on the product name in the card to open the product details page.
