@@ -1,6 +1,5 @@
 Here's the updated version of the README with the additional instruction about opening the product details page by clicking on the product name:
 
-```markdown
 # Products Gallery Website
 
 ## Description
@@ -11,7 +10,6 @@ This project is built with **Angular** to learn API consumption, dynamic routing
 ### 1. Clone the repository:
    Clone the repository to your local machine using the following command:
    ```bash
-   git clone https://github.com/your-username/products-gallery.git
    ```
 
 ### 2. Open the project in Visual Studio:
