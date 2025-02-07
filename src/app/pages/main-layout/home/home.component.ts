@@ -3,13 +3,12 @@ import { Component, inject, OnInit } from '@angular/core';
 import { ProductsService } from '../../../core/services/products/products.service'; 
 import { IProduct } from '../../../shared/interfaces/iproduct';
 import { ProductsComponent } from '../products/products.component';
-import { NgOptimizedImage } from '@angular/common'
 import { initFlowbite } from 'flowbite';
 
 
 @Component({
   selector: 'app-home',
-  imports: [ProductsComponent, NgOptimizedImage],
+  imports: [ProductsComponent],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
 })
